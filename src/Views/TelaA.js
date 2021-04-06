@@ -1,10 +1,12 @@
 import React from 'react';
 import TextoCentral from '../Components/TextoCentral';
 
-export default props => (
+export default props => {
+    return (
     <TextoCentral
         corFundo="#E53935"
     >
         Tela A
     </TextoCentral>
-)
+    )
+}
